@@ -12,19 +12,24 @@ class ThirdViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        // Do any additional setup after loading the view, typically from a nib.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+  
+    @IBAction func btnAnswer(_ sender: Any) {
+        performSegue(withIdentifier: "toAnswer", sender: self)
     }
-    */
+    
+    var answerText : String = "... then soviet"
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        switch segue.identifier! {
+        case "toAnswer":
+            //let source = segue.source as! ViewController
+            let destination = segue.destination as! AnswerViewController
+            destination.setIncomingText(incoming: answerText)
+        default:
+            NSLog("Unknown segue identifier -- " + segue.identifier!)
+        }
+    }
 
 }
