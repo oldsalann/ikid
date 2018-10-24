@@ -13,6 +13,7 @@
 		BA99D2022180CA35006C137B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA99D2002180CA35006C137B /* Main.storyboard */; };
 		BA99D2042180CA36006C137B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA99D2032180CA36006C137B /* Assets.xcassets */; };
 		BA99D2072180CA36006C137B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA99D2052180CA36006C137B /* LaunchScreen.storyboard */; };
+		BA99D20F2180D044006C137B /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA99D20E2180D044006C137B /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		BA99D2032180CA36006C137B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA99D2062180CA36006C137B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA99D2082180CA36006C137B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA99D20E2180D044006C137B /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				BA99D1FA2180CA35006C137B /* AppDelegate.swift */,
 				BA99D1FC2180CA35006C137B /* FirstViewController.swift */,
 				BA99D1FE2180CA35006C137B /* SecondViewController.swift */,
+				BA99D20E2180D044006C137B /* ThirdViewController.swift */,
 				BA99D2002180CA35006C137B /* Main.storyboard */,
 				BA99D2032180CA36006C137B /* Assets.xcassets */,
 				BA99D2052180CA36006C137B /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				BA99D1FF2180CA35006C137B /* SecondViewController.swift in Sources */,
 				BA99D1FB2180CA35006C137B /* AppDelegate.swift in Sources */,
+				BA99D20F2180D044006C137B /* ThirdViewController.swift in Sources */,
 				BA99D1FD2180CA35006C137B /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
