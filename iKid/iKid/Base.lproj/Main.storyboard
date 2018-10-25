@@ -238,7 +238,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cOc-Wt-Fmb">
-                                <rect key="frame" x="320" y="588" width="39" height="30"/>
+                                <rect key="frame" x="171" y="1086" width="39" height="30"/>
                                 <state key="normal" title="NEXT"/>
                                 <connections>
                                     <action selector="btnAnswer:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="fcA-A2-lIE"/>
@@ -314,9 +314,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lGV-Hj-uXm">
-                                <rect key="frame" x="612" y="313" width="39" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lGV-Hj-uXm">
+                                <rect key="frame" x="320" y="588" width="39" height="30"/>
                                 <state key="normal" title="NEXT"/>
                                 <connections>
                                     <action selector="btnAnswer:" destination="RGk-go-Sem" eventType="touchUpInside" id="sNf-4c-5n3"/>
@@ -334,7 +333,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="QCR-0S-3Yh" firstAttribute="centerX" secondItem="Qtq-24-Rt7" secondAttribute="centerX" id="Azo-Dg-d9U"/>
+                            <constraint firstItem="Qtq-24-Rt7" firstAttribute="trailing" secondItem="lGV-Hj-uXm" secondAttribute="trailing" constant="16" id="BIB-Bp-t1P"/>
                             <constraint firstItem="QCR-0S-3Yh" firstAttribute="leading" secondItem="Qtq-24-Rt7" secondAttribute="leading" constant="87" id="Xeh-Op-Xxu"/>
+                            <constraint firstItem="Qtq-24-Rt7" firstAttribute="bottom" secondItem="lGV-Hj-uXm" secondAttribute="bottom" id="edg-0S-lb1"/>
                             <constraint firstItem="Qtq-24-Rt7" firstAttribute="trailing" secondItem="QCR-0S-3Yh" secondAttribute="trailing" constant="88" id="sUM-Km-RDE"/>
                             <constraint firstItem="QCR-0S-3Yh" firstAttribute="centerY" secondItem="Qtq-24-Rt7" secondAttribute="centerY" id="yW0-hX-jzg"/>
                         </constraints>
@@ -373,6 +374,6 @@
         <image name="449.jpg" width="600" height="600"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="2a2-65-qGV"/>
+        <segue reference="Tib-he-ETn"/>
     </inferredMetricsTieBreakers>
 </document>
