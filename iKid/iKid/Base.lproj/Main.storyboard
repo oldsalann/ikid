@@ -44,7 +44,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="PQr-Ze-W5v"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Knock Knock" image="first" id="acW-dT-cKf"/>
+                    <tabBarItem key="tabBarItem" title="Knock Knock" id="acW-dT-cKf"/>
                     <connections>
                         <segue destination="fAa-4q-0gt" kind="presentation" identifier="toKnock" id="dkp-Gj-D76"/>
                     </connections>
@@ -238,7 +238,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cOc-Wt-Fmb">
-                                <rect key="frame" x="171" y="1086" width="39" height="30"/>
+                                <rect key="frame" x="320" y="588" width="39" height="30"/>
                                 <state key="normal" title="NEXT"/>
                                 <connections>
                                     <action selector="btnAnswer:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="fcA-A2-lIE"/>
@@ -256,7 +256,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Pun" image="second" id="cPa-gy-q4n"/>
+                    <tabBarItem key="tabBarItem" title="Pun" id="cPa-gy-q4n"/>
                     <connections>
                         <segue destination="8Tw-p5-Dbe" kind="presentation" identifier="toAnswer" id="2a2-65-qGV"/>
                     </connections>
@@ -371,10 +371,8 @@
     </scenes>
     <resources>
         <image name="449.jpg" width="600" height="600"/>
-        <image name="first" width="30" height="30"/>
-        <image name="second" width="30" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Tib-he-ETn"/>
+        <segue reference="2a2-65-qGV"/>
     </inferredMetricsTieBreakers>
 </document>
