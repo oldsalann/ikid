@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina4_7" orientation="landscape">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -14,18 +14,18 @@
             <objects>
                 <viewController id="9pv-A4-QxB" customClass="FirstViewController" customModule="iKid" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Knock Knock" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="KQZ-1w-vlD">
-                                <rect key="frame" x="16" y="301" width="343" height="36"/>
+                                <rect key="frame" x="16" y="153.5" width="635" height="36"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9en-gF-4Vf">
-                                <rect key="frame" x="320" y="588" width="39" height="30"/>
+                                <rect key="frame" x="612" y="313" width="39" height="30"/>
                                 <state key="normal" title="NEXT"/>
                                 <connections>
                                     <action selector="toKnock:" destination="9pv-A4-QxB" eventType="touchUpInside" id="LOd-0e-Y2Y"/>
@@ -59,17 +59,17 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DOF-sT-3BM" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="fAa-4q-0gt" customClass="Knock2ViewController" customModule="iKid" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CkY-a2-oxV">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Who's there?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OLK-cS-Jx6">
-                                <rect key="frame" x="78" y="324.5" width="218" height="38.5"/>
+                                <rect key="frame" x="78" y="168.5" width="510" height="38.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NsJ-mY-orb">
-                                <rect key="frame" x="320" y="588" width="39" height="30"/>
+                                <rect key="frame" x="612" y="296" width="39" height="30"/>
                                 <state key="normal" title="NEXT"/>
                                 <connections>
                                     <action selector="toKnock:" destination="fAa-4q-0gt" eventType="touchUpInside" id="ACY-5n-65q"/>
@@ -100,17 +100,17 @@
             <objects>
                 <viewController id="fPh-bF-YqD" customClass="Knock5ViewController" customModule="iKid" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aZ2-FF-Yqf">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="VE VILL ASK THE QUESTIONS" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eg5-NV-XzT">
-                                <rect key="frame" x="16" y="328.5" width="343" height="30"/>
+                                <rect key="frame" x="16" y="172.5" width="635" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="COp-NJ-1SL">
-                                <rect key="frame" x="319" y="588" width="40" height="30"/>
+                                <rect key="frame" x="611" y="296" width="40" height="30"/>
                                 <state key="normal" title="BACK"/>
                                 <connections>
                                     <action selector="btnBack:" destination="fPh-bF-YqD" eventType="touchUpInside" id="dwm-bA-kz0"/>
@@ -143,17 +143,17 @@
             <objects>
                 <viewController id="bFM-d9-BmC" customClass="Knock4ViewController" customModule="iKid" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0Pi-q6-0dd">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="KGB Wh-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e1n-D7-nmh">
-                                <rect key="frame" x="78" y="324.5" width="218" height="38.5"/>
+                                <rect key="frame" x="78" y="168.5" width="510" height="38.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CeT-Ja-8D4">
-                                <rect key="frame" x="320" y="588" width="39" height="30"/>
+                                <rect key="frame" x="612" y="296" width="39" height="30"/>
                                 <state key="normal" title="NEXT"/>
                                 <connections>
                                     <action selector="toKnock:" destination="bFM-d9-BmC" eventType="touchUpInside" id="rBm-qS-kCl"/>
@@ -185,17 +185,17 @@
             <objects>
                 <viewController id="hK1-2c-rQ9" customClass="Knock3ViewController" customModule="iKid" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eOP-PH-rFd">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="KGB" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0fj-Ox-r4B">
-                                <rect key="frame" x="78" y="324.5" width="218" height="38.5"/>
+                                <rect key="frame" x="78" y="168.5" width="510" height="38.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cNV-VY-4MI">
-                                <rect key="frame" x="320" y="588" width="39" height="30"/>
+                                <rect key="frame" x="612" y="296" width="39" height="30"/>
                                 <state key="normal" title="NEXT"/>
                                 <connections>
                                     <action selector="toKnock:" destination="hK1-2c-rQ9" eventType="touchUpInside" id="1kG-Tb-014"/>
@@ -227,18 +227,18 @@
             <objects>
                 <viewController id="8rJ-Kc-sve" customClass="SecondViewController" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" text="I got hit in the head with a bottle of Omega-3 vitamins." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="15" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="zEq-FU-wV5">
-                                <rect key="frame" x="16" y="244" width="343" height="107"/>
+                                <rect key="frame" x="162" y="117" width="343" height="107"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cOc-Wt-Fmb">
-                                <rect key="frame" x="171" y="1086" width="39" height="30"/>
+                                <rect key="frame" x="1144" y="170" width="39" height="30"/>
                                 <state key="normal" title="NEXT"/>
                                 <connections>
                                     <action selector="btnAnswer:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="fcA-A2-lIE"/>
@@ -270,31 +270,31 @@
             <objects>
                 <viewController id="8Tw-p5-Dbe" customClass="AnswerViewController" customModule="iKid" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="RC7-3K-Dpz">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Answer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G4E-Xk-3Rj">
-                                <rect key="frame" x="79" y="324.5" width="218" height="38.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xvh-Zw-Bgu">
-                                <rect key="frame" x="319" y="588" width="40" height="30"/>
+                                <rect key="frame" x="611" y="296" width="40" height="30"/>
                                 <state key="normal" title="BACK"/>
                                 <connections>
                                     <action selector="btnBack:" destination="8Tw-p5-Dbe" eventType="touchUpInside" id="YzC-BB-nR5"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Answer" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G4E-Xk-3Rj">
+                                <rect key="frame" x="44" y="169.5" width="578" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="RYo-hC-H87" firstAttribute="trailing" secondItem="G4E-Xk-3Rj" secondAttribute="trailing" constant="78" id="4QW-Nw-uc2"/>
-                            <constraint firstItem="G4E-Xk-3Rj" firstAttribute="centerY" secondItem="RYo-hC-H87" secondAttribute="centerY" id="Fit-J1-FBn"/>
                             <constraint firstItem="RYo-hC-H87" firstAttribute="trailing" secondItem="xvh-Zw-Bgu" secondAttribute="trailing" constant="16" id="GQB-qg-0St"/>
-                            <constraint firstItem="G4E-Xk-3Rj" firstAttribute="leading" secondItem="RYo-hC-H87" secondAttribute="leading" constant="79" id="YCi-80-Dlj"/>
+                            <constraint firstItem="G4E-Xk-3Rj" firstAttribute="leading" secondItem="RYo-hC-H87" secondAttribute="leading" constant="44" id="V2e-3l-b8x"/>
                             <constraint firstItem="RYo-hC-H87" firstAttribute="bottom" secondItem="xvh-Zw-Bgu" secondAttribute="bottom" constant="49" id="avz-Rq-TPp"/>
-                            <constraint firstItem="G4E-Xk-3Rj" firstAttribute="centerX" secondItem="RYo-hC-H87" secondAttribute="centerX" id="gFT-Hn-7fd"/>
+                            <constraint firstItem="G4E-Xk-3Rj" firstAttribute="centerY" secondItem="RYo-hC-H87" secondAttribute="centerY" id="eNi-u5-7RB"/>
+                            <constraint firstItem="RYo-hC-H87" firstAttribute="trailing" secondItem="G4E-Xk-3Rj" secondAttribute="trailing" constant="45" id="fpI-Fy-E0X"/>
+                            <constraint firstItem="G4E-Xk-3Rj" firstAttribute="centerX" secondItem="RYo-hC-H87" secondAttribute="centerX" id="lXE-7S-BBP"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="RYo-hC-H87"/>
                     </view>
@@ -311,18 +311,18 @@
             <objects>
                 <viewController id="RGk-go-Sem" customClass="ThirdViewController" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="IfL-OW-fOC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lGV-Hj-uXm">
-                                <rect key="frame" x="320" y="588" width="39" height="30"/>
+                                <rect key="frame" x="612" y="313" width="39" height="30"/>
                                 <state key="normal" title="NEXT"/>
                                 <connections>
                                     <action selector="btnAnswer:" destination="RGk-go-Sem" eventType="touchUpInside" id="sNf-4c-5n3"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="449.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="QCR-0S-3Yh">
-                                <rect key="frame" x="87" y="219" width="200" height="200"/>
+                                <rect key="frame" x="87" y="71.5" width="492" height="200"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="GgF-1O-jw3"/>
                                     <constraint firstAttribute="height" constant="200" id="XAq-dy-gpX"/>
@@ -374,6 +374,6 @@
         <image name="449.jpg" width="600" height="600"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Tib-he-ETn"/>
+        <segue reference="2a2-65-qGV"/>
     </inferredMetricsTieBreakers>
 </document>
