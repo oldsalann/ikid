@@ -238,7 +238,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cOc-Wt-Fmb">
-                                <rect key="frame" x="320" y="588" width="39" height="30"/>
+                                <rect key="frame" x="171" y="1086" width="39" height="30"/>
                                 <state key="normal" title="NEXT"/>
                                 <connections>
                                     <action selector="btnAnswer:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="fcA-A2-lIE"/>
@@ -314,22 +314,29 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lGV-Hj-uXm">
-                                <rect key="frame" x="320" y="588" width="39" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lGV-Hj-uXm">
+                                <rect key="frame" x="612" y="313" width="39" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="NEXT"/>
                                 <connections>
                                     <action selector="btnAnswer:" destination="RGk-go-Sem" eventType="touchUpInside" id="sNf-4c-5n3"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="449.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="QCR-0S-3Yh">
-                                <rect key="frame" x="94" y="222" width="187" height="222"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="449.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="QCR-0S-3Yh">
+                                <rect key="frame" x="87" y="219" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="GgF-1O-jw3"/>
+                                    <constraint firstAttribute="height" constant="200" id="XAq-dy-gpX"/>
+                                    <constraint firstAttribute="width" secondItem="QCR-0S-3Yh" secondAttribute="height" multiplier="1:1" id="Xdm-PZ-ihL"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="Qtq-24-Rt7" firstAttribute="trailing" secondItem="lGV-Hj-uXm" secondAttribute="trailing" constant="16" id="IYv-T5-u8C"/>
-                            <constraint firstItem="Qtq-24-Rt7" firstAttribute="bottom" secondItem="lGV-Hj-uXm" secondAttribute="bottom" id="OTD-gu-LXc"/>
+                            <constraint firstItem="QCR-0S-3Yh" firstAttribute="centerX" secondItem="Qtq-24-Rt7" secondAttribute="centerX" id="Azo-Dg-d9U"/>
+                            <constraint firstItem="QCR-0S-3Yh" firstAttribute="leading" secondItem="Qtq-24-Rt7" secondAttribute="leading" constant="87" id="Xeh-Op-Xxu"/>
+                            <constraint firstItem="Qtq-24-Rt7" firstAttribute="trailing" secondItem="QCR-0S-3Yh" secondAttribute="trailing" constant="88" id="sUM-Km-RDE"/>
+                            <constraint firstItem="QCR-0S-3Yh" firstAttribute="centerY" secondItem="Qtq-24-Rt7" secondAttribute="centerY" id="yW0-hX-jzg"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Qtq-24-Rt7"/>
                     </view>
